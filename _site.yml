@@ -1,0 +1,12 @@
+name: "dylan_lucko_site"
+title: "Dylan's Website"
+description: |
+  Dylan's Website
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

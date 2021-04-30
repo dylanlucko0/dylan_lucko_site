@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About me",
+      "description": "Here is a little bit about who I am and what I do",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-30T02:14:52-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Dylan's Website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-30T02:14:52-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

@@ -1,0 +1,26 @@
+---
+title: "My First New Post"
+description: |
+  A short description of the post.
+author:
+  - name: Dylan Lucko
+    url: https://dylanlucko.com
+date: 04-30-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is the first post I am trying for this new distill project
+
+```{r}
+head(mtcars)
+```
+
+
+
