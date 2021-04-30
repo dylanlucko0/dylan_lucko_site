@@ -7,3 +7,7 @@ description: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+---
+My name is Dylan, and I am a student at the George Washington University. I am graduating this May '21 with a Bachelor's of Science in Economics and Statistics. In the Fall, I will be attending GW once again for a Masters in Applied Economics.
+
+As an undergraduate student in Economics, I have studied and conducted research on the distributional effects of Carbon Taxes as well as the supply chains of materials used in renewable energy production.

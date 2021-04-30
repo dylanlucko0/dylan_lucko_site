@@ -14,7 +14,7 @@
     "contents": "\nCandidates attend a lot of events; here are a few trends…\nThe chart below depicts the number of trips to events that Kamala Harris took during her campaign. The number of trips per month plateaus around 8/month with a sudden drop off after August. The drop of is largely due to her dropping out of the presidential race and transitioning to Joe Biden’s VP.\n\n\n{\"x\":{\"visdat\":{\"847038b2d77d\":[\"function () \",\"plotlyVisDat\"]},\"cur_data\":\"847038b2d77d\",\"attrs\":{\"847038b2d77d\":{\"x\":{},\"y\":{},\"alpha_stroke\":1,\"sizes\":[10,100],\"spans\":[1,20],\"type\":\"bar\"}},\"layout\":{\"margin\":{\"b\":40,\"l\":60,\"t\":25,\"r\":10},\"title\":\"Total Trips by Harris each Month\",\"xaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"month\"},\"yaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"n\"},\"hovermode\":\"closest\",\"showlegend\":false},\"source\":\"A\",\"config\":{\"showSendToCloud\":false},\"data\":[{\"x\":[1,2,3,4,5,6,7,8,11,12],\"y\":[8,3,6,12,8,8,8,5,1,2],\"type\":\"bar\",\"marker\":{\"color\":\"rgba(31,119,180,1)\",\"line\":{\"color\":\"rgba(31,119,180,1)\"}},\"error_y\":{\"color\":\"rgba(31,119,180,1)\"},\"error_x\":{\"color\":\"rgba(31,119,180,1)\"},\"xaxis\":\"x\",\"yaxis\":\"y\",\"frame\":null}],\"highlight\":{\"on\":\"plotly_click\",\"persistent\":false,\"dynamic\":false,\"selectize\":false,\"opacityDim\":0.2,\"selected\":{\"opacity\":1},\"debounce\":0},\"shinyEvents\":[\"plotly_hover\",\"plotly_click\",\"plotly_selected\",\"plotly_relayout\",\"plotly_brushed\",\"plotly_brushing\",\"plotly_clickannotation\",\"plotly_doubleclick\",\"plotly_deselect\",\"plotly_afterplot\",\"plotly_sunburstclick\"],\"base_url\":\"https://plot.ly\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\nThe following chart shows the total trips by all candidates to New Hampshire. A possible explanation is that once the NH primary ended, trips began to subside\n\n\n{\"x\":{\"visdat\":{\"84704d9322d3\":[\"function () \",\"plotlyVisDat\"]},\"cur_data\":\"84704d9322d3\",\"attrs\":{\"84704d9322d3\":{\"x\":{},\"y\":{},\"alpha_stroke\":1,\"sizes\":[10,100],\"spans\":[1,20],\"type\":\"bar\"}},\"layout\":{\"margin\":{\"b\":40,\"l\":60,\"t\":25,\"r\":10},\"title\":\"Total Trips to New Hampshire\",\"xaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"month\"},\"yaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"n\"},\"hovermode\":\"closest\",\"showlegend\":false},\"source\":\"A\",\"config\":{\"showSendToCloud\":false},\"data\":[{\"x\":[1,2,3,4,5,6,7,8,12],\"y\":[8,17,19,24,21,14,15,11,3],\"type\":\"bar\",\"marker\":{\"color\":\"rgba(31,119,180,1)\",\"line\":{\"color\":\"rgba(31,119,180,1)\"}},\"error_y\":{\"color\":\"rgba(31,119,180,1)\"},\"error_x\":{\"color\":\"rgba(31,119,180,1)\"},\"xaxis\":\"x\",\"yaxis\":\"y\",\"frame\":null}],\"highlight\":{\"on\":\"plotly_click\",\"persistent\":false,\"dynamic\":false,\"selectize\":false,\"opacityDim\":0.2,\"selected\":{\"opacity\":1},\"debounce\":0},\"shinyEvents\":[\"plotly_hover\",\"plotly_click\",\"plotly_selected\",\"plotly_relayout\",\"plotly_brushed\",\"plotly_brushing\",\"plotly_clickannotation\",\"plotly_doubleclick\",\"plotly_deselect\",\"plotly_afterplot\",\"plotly_sunburstclick\"],\"base_url\":\"https://plot.ly\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
     "preview": {},
     "last_modified": "2021-04-30T17:49:44-04:00",
-    "input_file": "my-first-new-post.utf8.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-04-30-my-second-new-post/",
@@ -34,23 +34,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Dylan's Website",
-    "description": "Welcome to our new blog, Dylan's Website. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Dylan Lucko",
-        "url": "https://dylanlucko.com"
-      }
-    ],
-    "date": "2021-04-30",
-    "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-04-30T14:50:42-04:00",
-    "input_file": "welcome.utf8.md"
-  },
-  {
     "path": "posts/2021-04-30-proseminar-abstract/",
     "title": "Proseminar Abstract",
     "description": "Below is the abstract for my Proseminar Research Class.",
@@ -65,6 +48,23 @@
     "contents": "\nAbstract\nIn 2004, Colorado passed legislation that enacted its first ever initiative to transition 20 percent of the state’s energy consumption to renewable forms of energy, which include solar, wind, geothermal, and hydroelectric. Nine years later in 2013, the state increased its goal to 30 percent renewable energy. To accomplish this transition, Colorado made the cost of producing carbon dioxide more expensive in the form of a tax per short ton of carbon dioxide emitted. In turn, energy prices in Colorado increased as the tax remittance shifted from firms to consumers of the electricity. Since a higher percentage of Coloradan’s income was now going to pay for energy costs, individuals making less money could be disproportionately affected by this policy change. This paper investigates the distributional effects of the carbon tax policy in Colorado.\n\n\n\n",
     "preview": {},
     "last_modified": "2021-04-30T14:56:56-04:00",
-    "input_file": "proseminar-abstract.utf8.md"
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Dylan's Website",
+    "description": "Welcome to our new blog, Dylan's Website. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Dylan Lucko",
+        "url": "https://dylanlucko.com"
+      }
+    ],
+    "date": "2021-04-30",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-30T14:50:43-04:00",
+    "input_file": {}
   }
 ]
