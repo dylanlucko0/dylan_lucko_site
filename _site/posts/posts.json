@@ -39,15 +39,32 @@
     "description": "Welcome to our new blog, Dylan's Website. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Dylan Lucko",
+        "url": "https://dylanlucko.com"
       }
     ],
     "date": "2021-04-30",
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-30T01:40:36-04:00",
-    "input_file": {}
+    "last_modified": "2021-04-30T14:50:42-04:00",
+    "input_file": "welcome.utf8.md"
+  },
+  {
+    "path": "posts/2021-04-30-proseminar-abstract/",
+    "title": "Proseminar Abstract",
+    "description": "Below is the abstract for my Proseminar Research Class.",
+    "author": [
+      {
+        "name": "Dylan Lucko",
+        "url": "https://dylanlucko.com"
+      }
+    ],
+    "date": "2021-04-30",
+    "categories": [],
+    "contents": "\nAbstract\nIn 2004, Colorado passed legislation that enacted its first ever initiative to transition 20 percent of the state’s energy consumption to renewable forms of energy, which include solar, wind, geothermal, and hydroelectric. Nine years later in 2013, the state increased its goal to 30 percent renewable energy. To accomplish this transition, Colorado made the cost of producing carbon dioxide more expensive in the form of a tax per short ton of carbon dioxide emitted. In turn, energy prices in Colorado increased as the tax remittance shifted from firms to consumers of the electricity. Since a higher percentage of Coloradan’s income was now going to pay for energy costs, individuals making less money could be disproportionately affected by this policy change. This paper investigates the distributional effects of the carbon tax policy in Colorado.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-30T14:56:56-04:00",
+    "input_file": "proseminar-abstract.utf8.md"
   }
 ]
