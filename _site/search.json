@@ -5,15 +5,15 @@
       "title": "About me",
       "description": "Here is a little bit about who I am and what I do",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-04-30T17:51:01-04:00"
+      "contents": "\nMy name is Dylan, and I am a student at the George Washington University. I am graduating this May ’21 with a Bachelor’s of Science in Economics and Statistics. In the Fall, I will be attending GW once again for a Masters in Applied Economics.\nAs an undergraduate student in Economics, I have studied and conducted research on the distributional effects of Carbon Taxes as well as the supply chains of materials used in renewable energy production.\n\n\n\n",
+      "last_modified": "2021-04-30T17:52:46-04:00"
     },
     {
       "path": "index.html",
       "title": "Dylan's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-30T17:51:02-04:00"
+      "last_modified": "2021-04-30T17:52:46-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

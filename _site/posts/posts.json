@@ -18,7 +18,7 @@
   },
   {
     "path": "posts/2021-04-30-my-second-new-post/",
-    "title": "My Second Post",
+    "title": "Impeachment Analysis",
     "description": "A short description of the post.",
     "author": [
       {
@@ -28,10 +28,10 @@
     ],
     "date": "2021-04-30",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\n\n# A tibble: 15 x 4\n   first_name last_name    for_impeachment p16winningparty\n   <chr>      <chr>        <chr>           <chr>          \n 1 Anthony    Brindisi     NO              R              \n 2 Cheri      Bustos       NO              R              \n 3 Joe        Cunningham   NO              R              \n 4 Jared      Golden       NO              R              \n 5 Kendra     Horn         NO              R              \n 6 Ron        Kind         NO              R              \n 7 Conor      Lamb         NO              R              \n 8 Susie      Lee          NO              R              \n 9 Ben        McAdams      NO              R              \n10 Lucy       McBath       NO              R              \n11 Tom        O'Halleran   NO              R              \n12 Collin     Peterson     NO              R              \n13 Max        Rose         NO              R              \n14 Xochitl    Torres Small NO              R              \n15 Jefferson  Van Drew     NO              R              \n\n{\"x\":{\"visdat\":{\"891058ef0870\":[\"function () \",\"plotlyVisDat\"]},\"cur_data\":\"891058ef0870\",\"attrs\":{\"891058ef0870\":{\"values\":{},\"alpha_stroke\":1,\"sizes\":[10,100],\"spans\":[1,20],\"type\":\"pie\"}},\"layout\":{\"margin\":{\"b\":40,\"l\":60,\"t\":25,\"r\":10},\"hovermode\":\"closest\",\"showlegend\":true},\"source\":\"A\",\"config\":{\"showSendToCloud\":false},\"data\":[{\"values\":[\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\",\"R\"],\"type\":\"pie\",\"marker\":{\"color\":\"rgba(31,119,180,1)\",\"line\":{\"color\":\"rgba(255,255,255,1)\"}},\"frame\":null}],\"highlight\":{\"on\":\"plotly_click\",\"persistent\":false,\"dynamic\":false,\"selectize\":false,\"opacityDim\":0.2,\"selected\":{\"opacity\":1},\"debounce\":0},\"shinyEvents\":[\"plotly_hover\",\"plotly_click\",\"plotly_selected\",\"plotly_relayout\",\"plotly_brushed\",\"plotly_brushing\",\"plotly_clickannotation\",\"plotly_doubleclick\",\"plotly_deselect\",\"plotly_afterplot\",\"plotly_sunburstclick\"],\"base_url\":\"https://plot.ly\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-30T02:20:11-04:00",
-    "input_file": {}
+    "last_modified": "2021-04-30T18:06:01-04:00",
+    "input_file": "my-second-new-post.utf8.md"
   },
   {
     "path": "posts/2021-04-30-proseminar-abstract/",
@@ -53,7 +53,7 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to Dylan's Website",
-    "description": "Welcome to our new blog, Dylan's Website. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading.",
     "author": [
       {
         "name": "Dylan Lucko",
@@ -64,7 +64,7 @@
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-30T14:50:43-04:00",
-    "input_file": {}
+    "last_modified": "2021-04-30T17:53:33-04:00",
+    "input_file": "welcome.utf8.md"
   }
 ]

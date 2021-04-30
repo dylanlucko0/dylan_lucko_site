@@ -1,5 +1,5 @@
 ---
-title: "My Second Post"
+title: "Impeachment Analysis"
 description: |
   A short description of the post.
 author:
@@ -16,4 +16,44 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r}
+
+
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(plotly)
+
+ joined_impeachment_0927_ <- read_excel("~/Documents_1/Spring 2021/Data Journalism/joined_impeachment_0927 .xls")
+impeach <- joined_impeachment_0927_
+im<-impeach %>% 
+  filter(for_impeachment=="NO") %>% 
+  select(first_name, last_name, for_impeachment)
+im<-impeach %>% 
+  filter(for_impeachment=="NO") %>% 
+  filter(p16winningparty=="R") %>% 
+  select(first_name, last_name, for_impeachment, p16winningparty)
+
+im
+
+data<- im
+fig<- plot_ly(data,  values= ~p16winningparty, type="pie")
+fig
 ```
+
+
+
+
+
+```{r}
+impeach %>% 
+  arrange(pct_bachelors) %>% 
+  filter(for_impeachment=="NO") %>% 
+  select(first_name, last_name, for_impeachment, pct_bachelors)
+
+mychart4<-impeach %>% 
+  plot_ly(x = ~last_name,
+          y = ~pct_bachelors,
+          type = "bar")
+mychart4
+```
+
