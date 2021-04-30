@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2021-04-30-my-first-new-post/",
-    "title": "My First New Post",
-    "description": "A short description of the post.",
+    "title": "Campaign Travel Analysis",
+    "description": "In this post I hope to demosntrate a few trends in travel for candidates in the 2020 Presidential Election.",
     "author": [
       {
         "name": "Dylan Lucko",
@@ -11,10 +11,10 @@
     ],
     "date": "2021-04-30",
     "categories": [],
-    "contents": "\nThis is the first post I am trying for this new distill project\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\n\n\n",
+    "contents": "\nCandidates attend a lot of events; here are a few trends…\nThe chart below depicts the number of trips to events that Kamala Harris took during her campaign. The number of trips per month plateaus around 8/month with a sudden drop off after August. The drop of is largely due to her dropping out of the presidential race and transitioning to Joe Biden’s VP.\n\n\n{\"x\":{\"visdat\":{\"847038b2d77d\":[\"function () \",\"plotlyVisDat\"]},\"cur_data\":\"847038b2d77d\",\"attrs\":{\"847038b2d77d\":{\"x\":{},\"y\":{},\"alpha_stroke\":1,\"sizes\":[10,100],\"spans\":[1,20],\"type\":\"bar\"}},\"layout\":{\"margin\":{\"b\":40,\"l\":60,\"t\":25,\"r\":10},\"title\":\"Total Trips by Harris each Month\",\"xaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"month\"},\"yaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"n\"},\"hovermode\":\"closest\",\"showlegend\":false},\"source\":\"A\",\"config\":{\"showSendToCloud\":false},\"data\":[{\"x\":[1,2,3,4,5,6,7,8,11,12],\"y\":[8,3,6,12,8,8,8,5,1,2],\"type\":\"bar\",\"marker\":{\"color\":\"rgba(31,119,180,1)\",\"line\":{\"color\":\"rgba(31,119,180,1)\"}},\"error_y\":{\"color\":\"rgba(31,119,180,1)\"},\"error_x\":{\"color\":\"rgba(31,119,180,1)\"},\"xaxis\":\"x\",\"yaxis\":\"y\",\"frame\":null}],\"highlight\":{\"on\":\"plotly_click\",\"persistent\":false,\"dynamic\":false,\"selectize\":false,\"opacityDim\":0.2,\"selected\":{\"opacity\":1},\"debounce\":0},\"shinyEvents\":[\"plotly_hover\",\"plotly_click\",\"plotly_selected\",\"plotly_relayout\",\"plotly_brushed\",\"plotly_brushing\",\"plotly_clickannotation\",\"plotly_doubleclick\",\"plotly_deselect\",\"plotly_afterplot\",\"plotly_sunburstclick\"],\"base_url\":\"https://plot.ly\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\nThe following chart shows the total trips by all candidates to New Hampshire. A possible explanation is that once the NH primary ended, trips began to subside\n\n\n{\"x\":{\"visdat\":{\"84704d9322d3\":[\"function () \",\"plotlyVisDat\"]},\"cur_data\":\"84704d9322d3\",\"attrs\":{\"84704d9322d3\":{\"x\":{},\"y\":{},\"alpha_stroke\":1,\"sizes\":[10,100],\"spans\":[1,20],\"type\":\"bar\"}},\"layout\":{\"margin\":{\"b\":40,\"l\":60,\"t\":25,\"r\":10},\"title\":\"Total Trips to New Hampshire\",\"xaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"month\"},\"yaxis\":{\"domain\":[0,1],\"automargin\":true,\"title\":\"n\"},\"hovermode\":\"closest\",\"showlegend\":false},\"source\":\"A\",\"config\":{\"showSendToCloud\":false},\"data\":[{\"x\":[1,2,3,4,5,6,7,8,12],\"y\":[8,17,19,24,21,14,15,11,3],\"type\":\"bar\",\"marker\":{\"color\":\"rgba(31,119,180,1)\",\"line\":{\"color\":\"rgba(31,119,180,1)\"}},\"error_y\":{\"color\":\"rgba(31,119,180,1)\"},\"error_x\":{\"color\":\"rgba(31,119,180,1)\"},\"xaxis\":\"x\",\"yaxis\":\"y\",\"frame\":null}],\"highlight\":{\"on\":\"plotly_click\",\"persistent\":false,\"dynamic\":false,\"selectize\":false,\"opacityDim\":0.2,\"selected\":{\"opacity\":1},\"debounce\":0},\"shinyEvents\":[\"plotly_hover\",\"plotly_click\",\"plotly_selected\",\"plotly_relayout\",\"plotly_brushed\",\"plotly_brushing\",\"plotly_clickannotation\",\"plotly_doubleclick\",\"plotly_deselect\",\"plotly_afterplot\",\"plotly_sunburstclick\"],\"base_url\":\"https://plot.ly\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-30T02:12:23-04:00",
-    "input_file": {}
+    "last_modified": "2021-04-30T17:49:44-04:00",
+    "input_file": "my-first-new-post.utf8.md"
   },
   {
     "path": "posts/2021-04-30-my-second-new-post/",
