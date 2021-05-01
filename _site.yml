@@ -10,18 +10,18 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Work Samples"
+      menu:
+      - text: "Campaign Travel"
+        href: campaign-travel-.html
+      - text: "Broadcast News Packages"
+        href: broadcast-.html
+      - text: "Proseminar Abstract"
+        href: abstract-.html
     - text: "Experience"
       href: experience.html
     - text: "Skills"
       href: skills.html
-    - text: "Work Samples"
-      menu:
-        - text: "Campaign Travel"
-          href: posts/welcome/
-        - text: "Broadcast News Packages"
-          href: posts/welcome/
-        - text: "Proseminar Abstract"
-          href: https://www.nytimes.com/2021/04/20/us/george-floyd-chauvin-verdict.html
 output: distill::distill_article
 collections:
   posts:

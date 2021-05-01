@@ -39,6 +39,7 @@
       <description>Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading.</description>
       <guid>https://dylanlucko.netlify.app/posts/welcome</guid>
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://dylanlucko.netlify.app/posts/welcome/images/IMG_7800-05.PNG" medium="image" type="image/png" width="750" height="990"/>
     </item>
   </channel>
 </rss>

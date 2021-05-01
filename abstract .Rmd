@@ -1,0 +1,18 @@
+---
+title: "The Distributional Effects of Carbon Taxes Abstract"
+description: |
+  The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar 
+author:
+  - name: Dylan Lucko 
+    url: https://dylanlucko.com
+    affiliation: The George Washington University
+    affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In 2004, Colorado passed legislation that enacted its first ever initiative to transition 20 percent of the state's energy consumption to renewable forms of energy, which include solar, wind, geothermal, and hydroelectric. Nine years later in 2013, the state increased its goal to 30 percent renewable energy. To accomplish this transition, Colorado made the cost of producing carbon dioxide more expensive in the form of a tax per short ton of carbon dioxide emitted. In turn, energy prices in Colorado increased as the tax remittance shifted from firms to consumers of the electricity. Since a higher percentage of Coloradan's income was now going to pay for energy costs, individuals making less money could be disproportionally affected by this policy change. This paper investigates the distributional effects of the carbon tax policy in Colorado.

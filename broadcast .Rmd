@@ -1,0 +1,49 @@
+---
+title: "Broadcast News Packages"
+description: |
+  Three news packages shot and edited by Dylan Lucko. 
+  
+  Click on the Image or Text to link to the Youtube Video. 
+author:
+  - name: Dylan Lucko 
+    url: https://dylanlucko.com
+    affiliation: The George Washington University
+    affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+
+```
+
+[The Social Security Administration:](https://youtu.be/HBcjhBu4L4c)
+
+The first package looks into the current shortcomings of Social Security and the Biden Administration's plan to revamp the system to ensure its longevity into the next century.
+
+[![](images/Screen%20Shot%202021-05-01%20at%203.21.15%20PM.png)](https://youtu.be/HBcjhBu4L4c)
+
+```{}
+```
+
+---
+
+[Longmont Meals on Wheels](https://youtu.be/PnkPt6M9B4w):
+
+The second package takes a look at an organization called Longmont Meals on Wheels- which provides hot, delivered meals to the elderly and disabled members of the community.
+
+[![](images/Screen%20Shot%202021-05-01%20at%203.23.10%20PM-01.png)](https://youtu.be/PnkPt6M9B4w)
+
+```{r}
+
+```
+
+---
+
+[The Longmont Florist](https://youtu.be/VozkB9VNgOo):
+
+The third package covers the Longmont Florist, a local flower shop and their second busiest time of the year- Valentine's Day.
+
+[![](images/Screen%20Shot%202021-05-01%20at%203.25.11%20PM.png)](https://youtu.be/VozkB9VNgOo)
+
+---

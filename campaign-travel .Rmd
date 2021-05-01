@@ -1,0 +1,79 @@
+---
+title: "Campaign Travel Analysis"
+description: |
+  In this post I hope to demosntrate a few trends in travel for candidates in the 2020 Presidential Election.
+author:
+  - name: Dylan Lucko
+    url: https://dylanlucko.com
+date: 04-30-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+Candidates attend a lot of events; here are a few trends...
+
+The chart below depicts the number of trips to events that Kamala Harris took during her campaign. The number of trips per month plateaus around 8/month with a sudden drop off after August. The drop of is largely due to her dropping out of the presidential race and transitioning to Joe Biden's VP.
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(DT)
+library(plotly)
+
+events <- readRDS("~/Documents_1/Spring 2021/Data Journalism/dylan_lucko_site/events_saved.rds")
+
+events_month <- events %>% 
+  mutate(month(date))
+
+kamala_months <- events_month %>% 
+  filter(cand_lastname== "Harris") %>% 
+  #group_by (month(date)) %>% 
+  count(month = month(date))
+
+
+mychart1<-kamala_months %>% 
+  plot_ly(x = ~month, 
+          y = ~n,
+          type = "bar")
+mychart1<- mychart1 %>% 
+  layout(title= "Total Trips by Harris each Month")
+
+mychart1
+```
+
+```{r}
+
+
+```
+
+The following chart shows the total trips by all candidates to New Hampshire. A possible explanation is that once the NH primary ended, trips began to subside
+
+
+```{r}
+events_month_2 <- events %>% 
+  mutate(month(date))
+
+eventsNH <- events_month_2 %>% 
+  filter(state == "NH") %>% 
+  count(month = month(date))
+
+mychart2<-eventsNH %>% 
+  plot_ly(x = ~month, 
+          y = ~n,
+          type = "bar")
+mychart2<- mychart2 %>% 
+  layout(title= "Total Trips to New Hampshire by all Candidates")
+mychart2
+
+```
+
+
+
+
+
