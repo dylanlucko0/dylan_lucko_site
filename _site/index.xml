@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Dylan's Website</title>
+    <link>https://dylanlucko.netlify.app/</link>
+    <atom:link href="https://dylanlucko.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Dylan's Website
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Campaign Travel Analysis</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-04-30-my-first-new-post</link>
+      <description>In this post I hope to demosntrate a few trends in travel for candidates in the 2020 Presidential Election.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-04-30-my-first-new-post</guid>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Impeachment Analysis</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-04-30-my-second-new-post</link>
+      <description>A short description of the post.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-04-30-my-second-new-post</guid>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proseminar Abstract</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-04-30-proseminar-abstract</link>
+      <description>Below is the abstract for my Proseminar Research Class.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-04-30-proseminar-abstract</guid>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Dylan's Website</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/welcome</link>
+      <description>Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading.</description>
+      <guid>https://dylanlucko.netlify.app/posts/welcome</guid>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -5,15 +5,43 @@
       "title": "About me",
       "description": "Here is a little bit about who I am and what I do",
       "author": [],
-      "contents": "\nMy name is Dylan, and I am a student at the George Washington University. I am graduating this May ’21 with a Bachelor’s of Science in Economics and Statistics. In the Fall, I will be attending GW once again for a Masters in Applied Economics.\nAs an undergraduate student in Economics, I have studied and conducted research on the distributional effects of Carbon Taxes as well as the supply chains of materials used in renewable energy production.\n\n\n\n",
-      "last_modified": "2021-04-30T18:16:57-04:00"
+      "contents": "\nMy name is Dylan, and I am a student at the George Washington University. I am graduating this May ’21 with a Bachelor’s of Science in Economics and Statistics. In the Fall, I will be attending GW once again for a Masters in Applied Economics.\nAs an undergraduate student in Economics, I have studied and conducted research on the distributional effects of Carbon Taxes as well as the supply chains of materials used in renewable energy production.\nGWU ’21 B.S. Economics\nGWU ’23 M.A. Applied Economics\n\n\n\n",
+      "last_modified": "2021-05-01T14:27:34-04:00"
+    },
+    {
+      "path": "experience.html",
+      "title": "Experience",
+      "description": "Dylan's intern and work experience\n",
+      "author": [
+        {
+          "name": "Dylan Lucko",
+          "url": "https://dylanluckoo.com"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nEDUCATION\nWashington, D.C. \nTHE GEORGE WASHINGTON UNIVERSITY, Columbian College of Arts and Sciences Bachelor(s) of Science in Economics and Statistics; GPA 3.77 May 2021\nRelevant Coursework Includes: Portfolio Management, Multi-Variable Calculus, Econometrics, Analysis of Variance\nFundamentals of Quantitative Modeling-Wharton School Online May 2019 – July 2019\nEXPERIENCE\nINSTITUTE FOR CORPORATE RESPONSIBILITY Researcher and Data Analyst\nWashington, D.C. | August 2019- July 2020\nWork closely with former SEC officials in unpacking and breaking down new regulations pertaining to the UN’s Environmental & Social Goals; help companies navigate the changing regulatory space.\nCoordinate with investors, government officials, and corporate leaders to raise necessary capital to facilitate the technological and economic development of under-served communities in Kenya, India, and Washington, D.C.\nResearch, collect, and analyze medical, political, and economic data to formulate business plans that introduce mobile hot-spotting and connectivity to the under-served communities; pitch these models to groups of investors. \nHARTFORD CASWELL CAPITAL LLC. (Personal Investment Portfolio) Manager\nBoulder, CO | May 2017 − Present \nCreated an LLC to better manage a personal portfolio (+373% since inception) composed of stocks and stock options;devise option trading strategies based on the relationships between different sectors; gauge movement between sectors using RSI and self-written code designed to compute correlations and synthesize trends with economic data.\nCONVERTPAGES Data Analyst\nNew York, New York | May 2019 − August 2019\nAnalyze data with Python to create a detailed matrix of clients and prospective clients to determine the best way market and sell the company’s software.•Reach out to both existing and prospective clients via emails and cold calls to pitch and sell the software packages;write customized variations of the software for the client to be used during demonstrational phone calls.\nCONVERSION-FLY (Marketing Analytics Software) Financial Consultant\nJacksonville, Florida (Remote) | October 2018 − May 2019 \nDeliver financial analytics, including detailed analysis of financial statements and expenses to better gauge the flow of capital and formulate projections, ultimately reducing expenses by 2.3% thus far.\nSynthesize the company’s financial data to construct a detailed Excel model of the company’s performance.\nSEVEN WEALTH CAPITAL Intern\nBoulder, Colorado |July 2018 − August 2018 \nOperated the firm’s risk assessment software and used client preferences to generate risk tolerance for 20 client portfolios to ensure that each client’s holdings reflected adjusted market volatility and risk aversion.\nLEFTY’S PIZZA Store Manager\nNiwot, Colorado |May 2017 − August 2017 \nManaged the finances (i.e. taxes and financial statements); boosted sales between 6% and 8% while decreasing costs by 3% by negotiating a 10-month contract with local farmers- supplying fresh produce and lowering variable costs. \nGW Alpha Fund, Founder, Quantitative & Machine Learning Based Hedge Fund\nGW Socially Responsible Investment Fund (+15% 9 mo.), Vice President of Finance\nTAMID Investment Fund (+24% 9 mo.), President, Fund Investment Officer\n\n\n\n",
+      "last_modified": "2021-05-01T14:33:52-04:00"
     },
     {
       "path": "index.html",
       "title": "Dylan's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-30T18:16:57-04:00"
+      "last_modified": "2021-05-01T14:25:56-04:00"
+    },
+    {
+      "path": "skills.html",
+      "title": "Skills",
+      "description": "Skills\n",
+      "author": [
+        {
+          "name": "Dylan Lucko",
+          "url": "https://dylanlucko.com"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-05-01T14:25:57-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

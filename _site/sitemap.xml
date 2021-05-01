@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://dylanlucko.netlify.app/about.html</loc>
+    <lastmod>2021-05-01T14:27:32-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/experience.html</loc>
+    <lastmod>2021-05-01T14:33:50-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/</loc>
+    <lastmod>2021-04-30T01:40:33-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/skills.html</loc>
+    <lastmod>2021-05-01T14:25:17-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/posts/2021-04-30-my-first-new-post/</loc>
+    <lastmod>2021-04-30T17:49:44-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/posts/2021-04-30-my-second-new-post/</loc>
+    <lastmod>2021-04-30T18:06:01-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/posts/2021-04-30-proseminar-abstract/</loc>
+    <lastmod>2021-04-30T14:56:56-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanlucko.netlify.app/posts/welcome/</loc>
+    <lastmod>2021-04-30T17:53:33-04:00</lastmod>
+  </url>
+</urlset>
