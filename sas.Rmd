@@ -1,0 +1,47 @@
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+proc import datafile=("C:/users/dylan/desktop/politics.csv"); run; proc
+print data =politics (obs=20); run; data politics2; set politics; if
+region in (1) then location = "Northeast"; if region in (2) then
+location = "Midwest"; if region in (3) then location = "South"; if
+region in (4) then location = "West"; if ideology in (1,2) then opinion
+= "Liberal"; if ideology in (3,4,5) then opinion = "Moderate"; if
+ideology in (6,7) then opinion = "Conservative"; if marstat in (1) then
+status = "Married"; if marstat in (2,3,4,5,6,7) then status ="Other"; if
+relserv in (1,2) then rel= "Very Religious"; if relserv in (3,4,5) then
+rel= "Moderatley Religious"; if relserv in (6) then rel= "Not
+Religious"; if ethnic in (1) then ethnicity= "Black"; if ethnic in (2)
+then ethnicity= "Asian"; if ethnic in (3) then ethnicity= "Native
+American"; if ethnic in (4) then ethnicity= "Hispanic"; if ethnic in (5)
+then ethnicity= "White"; run; proc print data=politics2 (obs=20); run;
+proc freq data = politics2; tables opinion / testp=(0.2, 0.2, 0.6); run;
+proc format; value gen 1= "Male" 2="Female"; run; proc freq
+data=politics2; tables gender*opinion / chisq expected cellchi2; format
+gender gen.; run; proc gchart data = politics2; pie opinion/
+group=gender; format gender gen.; run; proc freq data=politics2; tables
+location*opinion / chisq expected cellchi2; run; proc gchart data =
+politics2; Lucko 12 pie location/ group=location; run; proc freq
+data=politics2; tables status*opinion / chisq expected cellchi2; run;
+proc gchart data = politics2; pie status/ group=opinion; run; proc freq
+data=politics2; tables rel*opinion / chisq expected cellchi2; run; proc
+gchart data = politics2; pie rel/ group=opinion; run; proc freq
+data=politics2; tables ethnicity\*opinion / chisq expected cellchi2;
+run; proc gchart data = politics2; pie ethnicity/ group=opinion; run;
