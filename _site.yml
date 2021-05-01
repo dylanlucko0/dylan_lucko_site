@@ -18,6 +18,8 @@ navbar:
         href: broadcast-.html
       - text: "Proseminar Abstract"
         href: abstract-.html
+      - text: "Select SAS Code for Statistical Analysis"
+        href: select-code-.html
     - text: "Experience"
       href: experience.html
     - text: "Skills"

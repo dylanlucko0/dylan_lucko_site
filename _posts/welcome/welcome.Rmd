@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Dylan's Website"
-description: |
+description: 
   Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading. 
 author:
   - name: Dylan Lucko 

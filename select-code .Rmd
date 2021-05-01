@@ -1,13 +1,21 @@
-<!DOCTYPE html>
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Dylan Lucko 
+    url: https://dylanlucko.com
+    affiliation: The George Washington University
+    affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-  <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://dylanlucko.netlify.app/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -2074,7 +2082,7 @@ Work Samples
 <a href="campaign-travel-.html">Campaign Travel</a>
 <a href="broadcast-.html">Broadcast News Packages</a>
 <a href="abstract-.html">Proseminar Abstract</a>
-<a href="select-code-.html">Select SAS Code for Statistical Analysis</a>
+<span class="nav-dropdown-header">Select SAS Code for Statistical Analysis</span>
 </div>
 </div>
 <a href="experience.html">Experience</a>
@@ -2325,3 +2333,10 @@ function init_posts_list() {
 </body>
 
 </html>
+
+
+
+
+
+
+
