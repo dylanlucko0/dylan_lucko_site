@@ -19,7 +19,9 @@ navbar:
       - text: "Proseminar Abstract"
         href: abstract-.html
       - text: "Select SAS Code for Statistical Analysis"
-        href: select-code-.html
+        href: 
+      - text: "Select Economics Writing Samples"
+        href: econ-articles.html
     - text: "Experience"
       href: experience.html
     - text: "Skills"

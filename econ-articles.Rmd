@@ -1,14 +1,17 @@
 ---
 title: "Select Economics Writing Samples"
 description: |
-  A few samples of writing from select Economics Classes
+  A few samples of writing from select economics classes
 author:
   - name: Dylan Lucko 
     url: https://dylanlucko.com
     affiliation: The George Washington University
     affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Energy Analysis:
 
-\
+
 **Summary**
 
 In the March 24, 2020 Today in Energy Report, the Energy Information Administration's principal contributors Mike Kopalek and Victoria Zaretskaya discuss Europe's record high levels of natural gas storage at the end of Winter. 
