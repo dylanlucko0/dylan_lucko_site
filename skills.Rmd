@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Technical Skills:
 
-### Bloomberg Terminals 
+### Bloomberg Terminals
 
 (Certified)
 
@@ -50,7 +50,7 @@ Cleaning data, creating basic charts
 
 -   Tableau
 
-### Web Design 
+### Web Design
 
 -   [dylanlucko.com](dylanluckocom)
 
