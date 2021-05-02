@@ -18,7 +18,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Energy Analysis:
+## Energy Analysis
 
 
 **Summary**
