@@ -18,7 +18,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Rodger Stone 
+## Rodger Stone
 
 \
 
@@ -58,9 +58,9 @@ In his closing remarks, Morando called the jurors to action to reject Rogow's ar
 
 "At the end of the day, it's a question of why it matters that we're here today," Assistant U.S. Attorney Michael Morando told jurors. "We're here today because truth matters. Roger Stone was fully aware that if any of this information got out, it would look really, really bad for his longtime friend and associate Donald Trump." 
 
----
+------------------------------------------------------------------------
 
-## Iran 
+## Iran
 
  **Iranian Internet Blackouts and Economic Sanctions**
 
@@ -108,7 +108,7 @@ The United Nations explicitly identified government-led internet shutdowns and c
 
 "The Office of Foreign Assets Control must figure out a viable way to enforce the U.N.'s resolution, especially as more and more people become entirely dependent on the internet," Grier said. "It's in everyone's best interest." 
 
----
+------------------------------------------------------------------------
 
 ## Treasury Department
 
@@ -154,7 +154,7 @@ The Office of Legal Counsel, which is run by Mr. Engel, a Trump appointee, offer
 
 The matter has since risen to the New York State Court of Appeals, where Trump's legal team argued that the Ways and Means Committees motif behind suing the Treasury for release of the tax returns was politically inspired in light of the coming election. 
 
----
+------------------------------------------------------------------------
 
 ## John Forrer
 
@@ -194,4 +194,4 @@ Regardless, Forrer's style works for him. He has made great strides in Sustainab
 
 Forrer's most recent journal articles include: "Business and Peace in the Buffer Condition" (2015), Academy Management Perspectives Vol. 29 no. 4 438-450; and "The PACO Index," (2016) with Timothy Fort, Business Horizons (Forthcoming). 
 
----
+------------------------------------------------------------------------

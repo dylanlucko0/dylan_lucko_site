@@ -23,10 +23,7 @@ The first package looks into the current shortcomings of Social Security and the
 
 [![](images/Screen%20Shot%202021-05-01%20at%203.21.15%20PM.png)](https://youtu.be/HBcjhBu4L4c)
 
-```{}
-```
-
----
+------------------------------------------------------------------------
 
 [Longmont Meals on Wheels](https://youtu.be/PnkPt6M9B4w):
 
@@ -38,7 +35,7 @@ The second package takes a look at an organization called Longmont Meals on Whee
 
 ```
 
----
+------------------------------------------------------------------------
 
 [The Longmont Florist](https://youtu.be/VozkB9VNgOo):
 
@@ -46,4 +43,4 @@ The third package covers the Longmont Florist, a local flower shop and their sec
 
 [![](images/Screen%20Shot%202021-05-01%20at%203.25.11%20PM.png)](https://youtu.be/VozkB9VNgOo)
 
----
+------------------------------------------------------------------------

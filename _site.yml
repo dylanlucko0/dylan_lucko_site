@@ -22,6 +22,8 @@ navbar:
         href: 
       - text: "Select Economics Writing Samples"
         href: econ-articles.html
+      - text: "Select Journalism Writing Samples"
+        href: journalism-articles.html
     - text: "Experience"
       href: experience.html
     - text: "Skills"
