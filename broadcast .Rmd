@@ -10,14 +10,17 @@ author:
     affiliation: The George Washington University
     affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
 
 ```
 
-[The Social Security Administration:](https://youtu.be/HBcjhBu4L4c)
+### [The Social Security Administration:](https://youtu.be/HBcjhBu4L4c)
 
 The first package looks into the current shortcomings of Social Security and the Biden Administration's plan to revamp the system to ensure its longevity into the next century.
 
@@ -25,7 +28,7 @@ The first package looks into the current shortcomings of Social Security and the
 
 ------------------------------------------------------------------------
 
-[Longmont Meals on Wheels](https://youtu.be/PnkPt6M9B4w):
+### [Longmont Meals on Wheels](https://youtu.be/PnkPt6M9B4w):
 
 The second package takes a look at an organization called Longmont Meals on Wheels- which provides hot, delivered meals to the elderly and disabled members of the community.
 
@@ -37,7 +40,7 @@ The second package takes a look at an organization called Longmont Meals on Whee
 
 ------------------------------------------------------------------------
 
-[The Longmont Florist](https://youtu.be/VozkB9VNgOo):
+### [The Longmont Florist](https://youtu.be/VozkB9VNgOo):
 
 The third package covers the Longmont Florist, a local flower shop and their second busiest time of the year- Valentine's Day.
 

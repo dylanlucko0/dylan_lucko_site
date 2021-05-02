@@ -1,33 +1,40 @@
 ---
 title: "Experience"
 description: |
-  Dylan's intern and work experience
+  Dylan's intern, work, and club experience
 author:
   - name: Dylan Lucko 
     url: https://dylanluckoo.com
     affiliation: The George Washington University
     affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economicss
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 4
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**EDUCATION**
+## **EDUCATION**
 
-Washington, D.C. 
+### **-THE GEORGE WASHINGTON UNIVERSITY** 
 
-**THE GEORGE WASHINGTON UNIVERSITY, Columbian College of Arts and Sciences Bachelor(s) of Science in Economics and Statistics**; *GPA 3.77* May 2021
+**Columbian College of Arts and Sciences Bachelor(s) of Science in Economics and Statistics**; *GPA 3.77* May 2021
 
 Relevant Coursework Includes: Portfolio Management, Multi-Variable Calculus, Econometrics, Analysis of Variance
 
-**Fundamentals of Quantitative Modeling-**Wharton School Online May 2019 -- July 2019
+### **-WHARTON SCHOOL ONLINE**
 
-**EXPERIENCE**
+**Fundamentals of Quantitative Modeling-** May 2019 -- July 2019
 
-**INSTITUTE FOR CORPORATE RESPONSIBILITY Researcher and Data Analyst**
+## **EXPERIENCE**
+
+### **-INSTITUTE FOR CORPORATE RESPONSIBILITY** 
+
+**Researcher and Data Analyst**
 
 Washington, D.C. \| August 2019- July 2020
 
@@ -37,19 +44,25 @@ Washington, D.C. \| August 2019- July 2020
 
 -   Research, collect, and analyze medical, political, and economic data to formulate business plans that introduce mobile hot-spotting and connectivity to the under-served communities; pitch these models to groups of investors. 
 
-**HARTFORD CASWELL CAPITAL LLC. (Personal Investment Portfolio) Manager**
+### **-HARTFORD CASWELL CAPITAL LLC.** 
+
+**Manager- (Personal Investment Portfolio)**
 
 Boulder, CO \| May 2017 − Present 
 
 -   Created an LLC to better manage a personal portfolio (+373% since inception) composed of stocks and stock options;devise option trading strategies based on the relationships between different sectors; gauge movement between sectors using RSI and self-written code designed to compute correlations and synthesize trends with economic data.
 
-**CONVERTPAGES Data Analyst**
+### **-CONVERTPAGES** 
+
+**Data Analyst**
 
 New York, New York \| May 2019 − August 2019
 
 -   Analyze data with Python to create a detailed matrix of clients and prospective clients to determine the best way market and sell the company's software.•Reach out to both existing and prospective clients via emails and cold calls to pitch and sell the software packages;write customized variations of the software for the client to be used during demonstrational phone calls.
 
-**CONVERSION-FLY (Marketing Analytics Software) Financial Consultant**
+### **-CONVERSION-FLY** 
+
+**Financial Consultant- (Marketing Analytics Software)**
 
 Jacksonville, Florida (Remote) \| October 2018 − May 2019 
 
@@ -57,20 +70,32 @@ Jacksonville, Florida (Remote) \| October 2018 − May 2019 
 
 -   Synthesize the company's financial data to construct a detailed Excel model of the company's performance.
 
-**SEVEN WEALTH CAPITAL Intern**
+### **-SEVEN WEALTH CAPITAL** 
+
+**Intern**
 
 Boulder, Colorado \|July 2018 − August 2018 
 
 -   Operated the firm's risk assessment software and used client preferences to generate risk tolerance for 20 client portfolios to ensure that each client's holdings reflected adjusted market volatility and risk aversion.
 
-**LEFTY'S PIZZA Store Manager**
+### **-LEFTY'S PIZZA** 
+
+**Store Manager**
 
 Niwot, Colorado \|May 2017 − August 2017 
 
 -   Managed the finances (i.e. taxes and financial statements); boosted sales between 6% and 8% while decreasing costs by 3% by negotiating a 10-month contract with local farmers- supplying fresh produce and lowering variable costs. 
 
-**GW Alpha Fund,** Founder**,** Quantitative & Machine Learning Based Hedge Fund
+## CLUB AFFILIATIONS
 
-**GW Socially Responsible Investment Fund (+15% 9 mo.)**, Vice President of Finance
+### **-GW Alpha Fund**
 
-**TAMID Investment Fund (+24% 9 mo.)**, President, Fund Investment Officer
+**Founder**-Quantitative & Machine Learning Based Hedge Fund
+
+### **-GW Socially Responsible Investment Fund** 
+
+**Vice President of Finance, Co Founder-** (+15% 9 mo.)
+
+### **-TAMID Investment Fund** 
+
+**President, Fund Investment Officer-** (+24% 9 mo.)

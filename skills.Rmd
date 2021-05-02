@@ -1,18 +1,57 @@
 ---
 title: "Skills"
 description: |
-  Skills
+  Technical skills I bring to the table 
 author:
   - name: Dylan Lucko 
     url: https://dylanlucko.com
     affiliation: The George Washington Unversity
     affiliation_url: https://economics.columbian.gwu.edu/ma-applied-economics
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Technical:** Bloomberg Terminals (Certified), Interactive Brokers, Morningstar, LogicGate, Microsoft (Excel, PowerPoint, and Word), Python (Intermediate), R (Intermediate) SQL (Basic), C++, SAS (Advanced), STATA, QuickBooks, and Tableau
+## Technical Skills:
+
+### Bloomberg Terminals 
+
+(Certified)
+
+bloomberg text
+
+### Microsoft (Excel, PowerPoint, and Word)
+
+Excel: VBA and Macros, Pivot Tables, V-Lookup, financial modeling
+
+### SAS (Advanced)
+
+Parametric and Non-Parametric tests, cleaning data, multi-factor regressions, non-linear regression, Econometrics, normality tests, tests for variance and covariance
+
+### Python (Intermediate)
+
+Creating financial models, financial analysis, time series analysis, computing dynamic thresholds, bootstrap aggregation for variance reduction and improved model accuracy, back testing
+
+### R (Basic)
+
+Cleaning data, creating basic charts
+
+-   SQL (Basic)
+
+-   STATA
+
+-   Quick-Books
+
+-   Tableau
+
+### Web Design 
+
+-   [dylanlucko.com](dylanluckocom)
+
+-   
