@@ -7,7 +7,39 @@
     <description>Dylan's Website
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Editorial- Cruise Ships</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-05-02-cruise-ships</link>
+      <description>An editorial about the fuel consumption of cruise liners.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-05-02-cruise-ships</guid>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editorial- Suez Canal</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-05-02-suez-canal</link>
+      <description>An editorial about the Suez Canal blockage.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-05-02-suez-canal</guid>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editorial- Social Media Password Laws</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-05-02-passwords</link>
+      <description>An editorial about changing social media password laws.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-05-02-passwords</guid>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editorial- Lange vs. California</title>
+      <dc:creator>Dylan Lucko</dc:creator>
+      <link>https://dylanlucko.netlify.app/posts/2021-05-02-lange</link>
+      <description>An editorial about the Supreme Court Case Lange vs. California.</description>
+      <guid>https://dylanlucko.netlify.app/posts/2021-05-02-lange</guid>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Campaign Travel Analysis</title>
       <dc:creator>Dylan Lucko</dc:creator>

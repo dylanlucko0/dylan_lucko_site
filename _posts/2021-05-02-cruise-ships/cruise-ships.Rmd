@@ -1,0 +1,30 @@
+---
+title: "Editorial- Cruise Ships"
+description: |
+  An editorial about the fuel consumption of cruise liners.
+author:
+  - name: Dylan Lucko
+    url: https://dylanlucko.com
+date: 05-02-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+If you're considering taking a cruise once the Pandemic is over, it may be time to think about other vacation options- in the name of Mother Nature. Cruises offer vacationers quite a lot of advantages: the chance to see and experiences new places and cultures; renowned on-board restaurants and wineries with menus from around the world, and entertainment for travelers of all ages. But at the end of the day, the more people, pool water, and ice cream that cruise companies pile on board, the more energy it takes to move the floating city from destination to destination. Those massive energy costs, both to the cruise lines and the environment, will be sure to make you (sea)sick to your stomach. 
+
+The word colossal doesn't even begin to describe the size of the newest cruise ships setting sail, and it's no doubt that they're trending larger still. The ships sailing away from Royal Caribbean's ports effuse four to five times as large as the RMS Titanic by internal volume. The number of crew members on a modern-day cruise ship nearly match the maximum number of passengers the Titanic could hold. Something has to keep the 228,000-ton monstrosity inching forward at the high seas. That something is diesel fuel. And a lot of it. 
+
+For a frame of reference, the average car sold in the United States as of 2019 gets about 25 miles per gallon (mpg) of gas/diesel consumed. If you find yourself rolling up to a Hollywood black tie event in a Rolls Royce Phantom, you'll likely be getting 11 mpg. The paparazzi guy who drove his mom's Honda Accord to the event is getting more like 30 mpg. The Boeing 737 you took from LaGuardia to LAX? 0.15 mpg. But how fuel efficient are cruise ships? 
+
+0.0023 miles per gallon. 
+
+In a given day of sailing, at a cruising speed of 22.6 knots (26 mph), the Oasis of the Seas (one of the larger cruise ships) will burn 11,361 gallons of fuel each hour. The fuel efficiency, then, is 0.0023 mpg. In other words, for every 12.08 feet traveled, the ship will burn a gallon of diesel fuel. 
+
+Cruise ships like to add another calculation into their public relations - the mpg per passenger- which is a way to factor in the amount of people the car, airplane, or ship carries. Cruise ships bode quite poorly though still, averaging 17.5 mpg/passenger. Seventeen and a half mpg certainly sounds better than 0.0023 mpg, though, but airplanes average 91 mpg/ passenger. Not so fast, Carnival. 
+
+Cruise ships use a lot of fuel. Their diesel fueled generators power not only the massive propellers, but also the soft serve machines, pool heaters, and ovens. Pretty much anything you lay your eyes on contributes to the 66,000 gallons of fuel used per day. So the next time you're going to click buy on Royal Caribbean or Carnival's website, just think that with the amount of fuel used in just one day out of your seven-day trip, you'd be able to drive your car around the entire Earth about 66 times. Just let that sink in.

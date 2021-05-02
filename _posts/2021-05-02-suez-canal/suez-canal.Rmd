@@ -1,0 +1,24 @@
+---
+title: "Editorial- Suez Canal"
+description: |
+  An editorial about the Suez Canal blockage.
+author:
+  - name: Dylan Lucko
+    url: https://dylanlucko.com
+date: 05-02-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The southernmost tip of Africa: a swath of sea ridden with gruesome shipwrecks and lore of abominable storms. For centuries, brave captains and their steadfast crews skillfully navigated this shipping route around the continent of Africa- for it was the only way to transport teas and spices from India to Europe. With the blockage of the Suez Canal by the Ever Given, captains face the same decision their predecessors did all those years ago: stay in the Indian Ocean or circumnavigate Africa. 
+
+The Ever Given's blockage of the Suez Canal continues to profusely affect trade between the East and the West. On average, 93 cargo ships make their journey through the Suez Canal each day, which means over 400 ships currently await passage. Analysis from the Wall Street Journal shows the stranded ship is holding up an estimated \$9.6bn of trade along the waterway each day. That equates to \$400m and 3.3 million tons of cargo an hour, or \$6.7m a minute. What options do the containership captains face? Wait in line for the freeing of the Ever Given or seek passage around the Cape of Good Hope. 
+
+Circumnavigating Africa adds about eight days of travel to the journey from Taiwan to the Netherlands, on average. Eight days longer means feeding and paying your crew more, not to mention keeping the propellers turning for another 192 hours. However, once captains' factor in all the costs, going around Africa makes much more sense than waiting in line for the Ever Given to be freed. 
+
+For the past year and a half, fuel prices have been trending lower, which means containerships can circumnavigate Africa for a much lower cost than historically possible. Furthermore, not using the Suez Canal means that shipping companies will avoid the \$700,000 fee the Suez Canal Authority charges for passage of a fully loaded containership. When the economic impacts (\$6.7m a minute) of stalling in the Indian Ocean are taken into account, turning around and heading for Africa is the clear choice. 
