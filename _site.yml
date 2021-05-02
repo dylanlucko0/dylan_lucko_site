@@ -6,10 +6,10 @@ base_url: "https://dylanlucko.netlify.app/"
 output_dir: "_site"
 navbar:
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "Home"
+      href: index.html
     - text: "Work Samples"
       menu:
       - text: "Campaign Travel"
