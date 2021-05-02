@@ -12,18 +12,20 @@ navbar:
       href: index.html
     - text: "Work Samples"
       menu:
-      - text: "Campaign Travel"
-        href: campaign-travel-.html
-      - text: "Broadcast News Packages"
-        href: broadcast-.html
       - text: "Proseminar Abstract"
         href: abstract-.html
-      - text: "Select SAS Code for Statistical Analysis"
-        href: 
+      - text: "Campaign Travel"
+        href: campaign-travel-.html
+      - text: "Select Editorials"
+        href: Editorials.html
       - text: "Select Economics Writing Samples"
         href: econ-articles.html
       - text: "Select Journalism Writing Samples"
         href: journalism-articles.html
+      - text: "Broadcast News Packages"
+        href: broadcast-.html
+      - text: "Select SAS Code for Statistical Analysis"
+        href: 
     - text: "Experience"
       href: experience.html
     - text: "Skills"
