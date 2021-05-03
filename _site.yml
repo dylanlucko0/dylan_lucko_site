@@ -6,10 +6,10 @@ base_url: "https://dylanlucko.netlify.app/"
 output_dir: "_site"
 navbar:
   right:
-    - text: "About"
-      href: about.html
     - text: "Home"
       href: index.html
+    - text: "Blog Posts"
+      href: home.html
     - text: "Work Samples"
       menu:
       - text: "Proseminar Abstract"
@@ -30,6 +30,8 @@ navbar:
       href: experience.html
     - text: "Skills"
       href: skills.html
+    - text: "About"
+      href: about.html
 output: distill::distill_article
 collections:
   posts:

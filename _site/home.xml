@@ -3,7 +3,7 @@
   <channel>
     <title>Dylan Lucko</title>
     <link>https://dylanlucko.netlify.app/</link>
-    <atom:link href="https://dylanlucko.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://dylanlucko.netlify.app/home.xml" rel="self" type="application/rss+xml"/>
     <description>Dylan's Website
 </description>
     <generator>Distill</generator>

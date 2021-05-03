@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://dylanlucko.netlify.app/home.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -85,33 +86,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dylan Lucko: The Distributional Effects of Carbon Taxes: Abstract</title>
+  <title>Dylan Lucko: Untitled</title>
 
-  <meta property="description" itemprop="description" content="The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar"/>
+  <meta property="description" itemprop="description" content="A new article created using the Distill format."/>
 
 
   <!--  https://schema.org/Article -->
   <meta property="article:published" itemprop="datePublished" content="2021-05-03"/>
   <meta property="article:created" itemprop="dateCreated" content="2021-05-03"/>
-  <meta name="article:author" content="Dylan Lucko"/>
+  <meta name="article:author" content="Nora Jones"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dylan Lucko: The Distributional Effects of Carbon Taxes: Abstract"/>
+  <meta property="og:title" content="Dylan Lucko: Untitled"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar"/>
+  <meta property="og:description" content="A new article created using the Distill format."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dylan Lucko"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dylan Lucko: The Distributional Effects of Carbon Taxes: Abstract"/>
-  <meta property="twitter:description" content="The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar"/>
+  <meta property="twitter:title" content="Dylan Lucko: Untitled"/>
+  <meta property="twitter:description" content="A new article created using the Distill format."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["The Distributional Effects of Carbon Taxes: Abstract"]},{"type":"character","attributes":{},"value":["The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar \n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Dylan Lucko"]},{"type":"character","attributes":{},"value":["https://dylanlucko.com"]},{"type":"character","attributes":{},"value":["The George Washington University"]},{"type":"character","attributes":{},"value":["https://economics.columbian.gwu.edu/ma-applied-economics"]}]}]},{"type":"character","attributes":{},"value":["2021-05-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","listing","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-05-03"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2051,12 +2052,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"The Distributional Effects of Carbon Taxes: Abstract","description":"The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar","authors":[{"author":"Dylan Lucko","authorURL":"https://dylanlucko.com","affiliation":"The George Washington University","affiliationURL":"https://economics.columbian.gwu.edu/ma-applied-economics","orcidID":""}],"publishedDate":"2021-05-03T00:00:00.000+00:00","citationText":"Lucko, 2021"}
+{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-05-03T00:00:00.000+00:00","citationText":"Jones, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2096,23 +2097,298 @@ Work Samples
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).load(function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="Untitled">Untitled</h1>
+<a href="posts/2021-05-02-cruise-ships/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">May 2, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Editorial- Cruise Ships</h2>
+<div class="dt-tags"></div>
+<p>An editorial about the fuel consumption of cruise liners.</p>
+</div>
+</a>
+<a href="posts/2021-05-02-lange/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">May 2, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Editorial- Lange vs. California</h2>
+<div class="dt-tags"></div>
+<p>An editorial about the Supreme Court Case Lange vs. California.</p>
+</div>
+</a>
+<a href="posts/2021-05-02-passwords/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">May 2, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Editorial- Social Media Password Laws</h2>
+<div class="dt-tags"></div>
+<p>An editorial about changing social media password laws.</p>
+</div>
+</a>
+<a href="posts/2021-05-02-suez-canal/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">May 2, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Editorial- Suez Canal</h2>
+<div class="dt-tags"></div>
+<p>An editorial about the Suez Canal blockage.</p>
+</div>
+</a>
+<a href="posts/2021-04-30-my-first-new-post/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 30, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Campaign Travel Analysis</h2>
+<div class="dt-tags"></div>
+<p>In this post I hope to demosntrate a few trends in travel for candidates in the 2020 Presidential Election.</p>
+</div>
+</a>
+<a href="posts/2021-04-30-my-second-new-post/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 30, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Impeachment Analysis</h2>
+<div class="dt-tags"></div>
+<p>A short description of the post.</p>
+</div>
+</a>
+<a href="posts/2021-04-30-proseminar-abstract/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 30, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Proseminar Abstract</h2>
+<div class="dt-tags"></div>
+<p>Below is the abstract for my Proseminar Research Class.</p>
+</div>
+</a>
+<a href="posts/welcome/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 30, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Dylan Lucko</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/welcome/images/IMG_7800-05.PNG"/>
+</div>
+<div class="description">
+<h2>Welcome to Dylan's Website</h2>
+<div class="dt-tags"></div>
+<p>Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading.</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>The Distributional Effects of Carbon Taxes: Abstract</h1>
+<h1>Untitled</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>The abstract for my 2021 Paper on the Distributional Effects of Carbon Taxes per Economics Proseminar</p></p>
+<p><p>A new article created using the Distill format.</p></p>
 </div>
 
 <div class="d-byline">
-  Dylan Lucko <a href="https://dylanlucko.com" class="uri">https://dylanlucko.com</a> (The George Washington University)<a href="https://economics.columbian.gwu.edu/ma-applied-economics" class="uri">https://economics.columbian.gwu.edu/ma-applied-economics</a>
+  Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
   
 <br/>2021-05-03
 </div>
 
 <div class="d-article">
-<p>In 2004, Colorado passed legislation that enacted its first ever initiative to transition 20 percent of the state’s energy consumption to renewable forms of energy, which include solar, wind, geothermal, and hydroelectric. Nine years later in 2013, the state increased its goal to 30 percent renewable energy. To accomplish this transition, Colorado made the cost of producing carbon dioxide more expensive in the form of a tax per short ton of carbon dioxide emitted. In turn, energy prices in Colorado increased as the tax remittance shifted from firms to consumers of the electricity. Since a higher percentage of Coloradan’s income was now going to pay for energy costs, individuals making less money could be disproportionally affected by this policy change. This paper investigates the distributional effects of the carbon tax policy in Colorado.</p>
-<p>The full paper will appear on this site June ’21.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

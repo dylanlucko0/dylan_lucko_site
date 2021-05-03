@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://dylanlucko.netlify.app/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -105,7 +104,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Dylan Lucko"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Dylan Lucko"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2045,7 +2044,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
@@ -2062,8 +2061,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="about.html">About</a>
 <a href="index.html">Home</a>
+<a href="home.html">Blog Posts</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 Work Samples
@@ -2082,6 +2081,7 @@ Work Samples
 </div>
 <a href="experience.html">Experience</a>
 <a href="skills.html">Skills</a>
+<a href="about.html">About</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2089,283 +2089,6 @@ Work Samples
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Dylan Lucko">Dylan Lucko</h1>
-<a href="posts/2021-05-02-cruise-ships/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Editorial- Cruise Ships</h2>
-<div class="dt-tags"></div>
-<p>An editorial about the fuel consumption of cruise liners.</p>
-</div>
-</a>
-<a href="posts/2021-05-02-lange/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Editorial- Lange vs. California</h2>
-<div class="dt-tags"></div>
-<p>An editorial about the Supreme Court Case Lange vs. California.</p>
-</div>
-</a>
-<a href="posts/2021-05-02-passwords/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Editorial- Social Media Password Laws</h2>
-<div class="dt-tags"></div>
-<p>An editorial about changing social media password laws.</p>
-</div>
-</a>
-<a href="posts/2021-05-02-suez-canal/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Editorial- Suez Canal</h2>
-<div class="dt-tags"></div>
-<p>An editorial about the Suez Canal blockage.</p>
-</div>
-</a>
-<a href="posts/2021-04-30-my-first-new-post/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 30, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Campaign Travel Analysis</h2>
-<div class="dt-tags"></div>
-<p>In this post I hope to demosntrate a few trends in travel for candidates in the 2020 Presidential Election.</p>
-</div>
-</a>
-<a href="posts/2021-04-30-my-second-new-post/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 30, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Impeachment Analysis</h2>
-<div class="dt-tags"></div>
-<p>A short description of the post.</p>
-</div>
-</a>
-<a href="posts/2021-04-30-proseminar-abstract/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 30, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Proseminar Abstract</h2>
-<div class="dt-tags"></div>
-<p>Below is the abstract for my Proseminar Research Class.</p>
-</div>
-</a>
-<a href="posts/welcome/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 30, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Dylan Lucko</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/welcome/images/IMG_7800-05.PNG"/>
-</div>
-<div class="description">
-<h2>Welcome to Dylan's Website</h2>
-<div class="dt-tags"></div>
-<p>Welcome to my blog site. This blog is a place to post research, news stories, and code. Enjoy reading.</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
 <h1>Dylan Lucko</h1>
@@ -2376,6 +2099,12 @@ function init_posts_list() {
 
 
 <div class="d-article">
+<p>My name is Dylan Lucko, and I am a student at the George Washington University. I am graduating May ’21 with a Bachelor’s of Science in Economics and a minor in Statistics and Journalism. In the Fall, I will be attending GW for a Masters in Applied Economics.</p>
+<p>As an undergraduate student in Economics, I have studied and conducted research on the distributional effects of Carbon Taxes as well as the supply chains of materials used in renewable energy production.</p>
+<p>Upon the completion of my master’s, I plan on working as a researcher at a VC or think tank trying to solve issues like income inequality and climate change. My resume and skill set can be found on this site under Experience and Skills, respectively.</p>
+<p>GWU ’21 B.S. Economics</p>
+<p>GWU ’23 M.A. Applied Economics</p>
+<p><img src="images/IMG_7800.PNG" style="width:2.2cm;height:2.7cm" /></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
