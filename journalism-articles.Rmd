@@ -1,7 +1,7 @@
 ---
 title: "Select Journalism Articles"
 description: |
-  A few samples of writing from select economics classes.
+  A few writing samples.
 author:
   - name: Dylan Lucko 
     url: https://dylanlucko.com
