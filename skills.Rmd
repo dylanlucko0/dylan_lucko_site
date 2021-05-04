@@ -24,23 +24,43 @@ knitr::opts_chunk$set(echo = FALSE)
 
 (Certified)
 
-bloomberg text
+The Bloomberg Terminal is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform.[^1]
 
-### Microsoft (Excel, PowerPoint, and Word)
+[^1]: "Bloomberg Professional Services". Bloomberg. Archived from the original on March 5, 2017. Retrieved February 27, 2020.
 
-Excel: VBA and Macros, Pivot Tables, V-Lookup, financial modeling
+My skill set on the Bloomberg Terminal ranges from basic navigation of keyboard shortcuts to find equities like Tesla quickly (\<TSLA\>\<EQUITY\>\<DES\>) to focusing the market monitor on the US Treasury Bond Market (\<PX1\>\<ENTER\>). I also perform equity analysis through the terminal and then export key information to my Excel based Discounted Cash Flow Analysis spreadsheet. Other Bloomberg skills include competitor analysis (comparing the financials of similar companies), the SWAP manager tool, and finding real time data on fixed income, derivatives, and economics news.
 
-### SAS (Advanced)
+### Microsoft Suite
 
-Parametric and Non-Parametric tests, cleaning data, multi-factor regressions, non-linear regression, Econometrics, normality tests, tests for variance and covariance
+The Microsoft Suite includes Excel, Word, and PowerPoint.
 
-### Python (Intermediate)
+I possess many skills in Excel that lend to data cleaning, financial analysis, economic model building, and automation. A few of these skills include Visual Basics, creating Pivot Tables, What-If Analysis, V-Lookup, If-Then statements, sorting and conditional formatting, and recording and implementing Macros.
 
-Creating financial models, financial analysis, time series analysis, computing dynamic thresholds, bootstrap aggregation for variance reduction and improved model accuracy, back testing
+### SAS
 
-### R (Basic)
+SAS is a piece of data analysis software used for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics.[^2]
 
-Cleaning data, creating basic charts
+[^2]: <https://www.sas.com/en_us/home.html>
+
+My skill set in SAS includes performing parametric and non-parametric tests, cleaning and sorting data, linear regressions, multiple linear regression, non-linear regression, Econometrics, normality tests, tests for robustness, and tests for variance and covariance.
+
+### Python
+
+Python is an interpreted high-level general-purpose programming language.[^3]
+
+[^3]: <https://www.python.org/>
+
+My skills in Python include creating financial models, financial analysis, time series analysis, computing dynamic thresholds, bootstrap aggregation for variance reduction and improved model accuracy, and back testing.
+
+### R 
+
+R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.[^4]
+
+[^4]: <https://www.r-project.org/>
+
+Skills in R include cleaning data, performing basic analysis with small and large datasets, creating basic charts (par, pie, donut), and knitting together projects via Distill into a functioning public website.
+
+### Other
 
 -   SQL (Basic)
 
@@ -49,9 +69,3 @@ Cleaning data, creating basic charts
 -   Quick-Books
 
 -   Tableau
-
-### Web Design
-
--   [dylanlucko.com](dylanluckocom)
-
--   
