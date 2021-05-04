@@ -24,8 +24,6 @@ navbar:
         href: journalism-articles.html
       - text: "Broadcast News Packages"
         href: broadcast-.html
-      - text: "Select SAS Code for Statistical Analysis"
-        href: 
     - text: "Experience"
       href: experience.html
     - text: "Skills"

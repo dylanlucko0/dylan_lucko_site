@@ -34,7 +34,9 @@ My skill set on the Bloomberg Terminal ranges from basic navigation of keyboard 
 
 The Microsoft Suite includes Excel, Word, and PowerPoint.
 
-I possess many skills in Excel that lend to data cleaning, financial analysis, economic model building, and automation. A few of these skills include Visual Basics, creating Pivot Tables, What-If Analysis, V-Lookup, If-Then statements, sorting and conditional formatting, and recording and implementing Macros.
+I possess many skills in Excel that lend to data cleaning, financial analysis, economic model building, and automation. A few of these skills include Visual Basics(designing and implementing Macros), creating Pivot Tables, What-If Analysis, V-Lookup, If-Then statements and sorting.
+
+Visual Basics is the coding language of excel and allows one to create macros that create replicable steps for spreadsheet automation. Pivot tables allow you to extract significance from large datasets, including summary statistics for any variable in the data. What-If analysis gives one the ability to create data tables and perform "goal-seek", a tool used to calculate backward. V-Lookup is a way to reference tables.
 
 ### SAS
 
@@ -43,6 +45,8 @@ SAS is a piece of data analysis software used for data management, advanced anal
 [^2]: <https://www.sas.com/en_us/home.html>
 
 My skill set in SAS includes performing parametric and non-parametric tests, cleaning and sorting data, linear regressions, multiple linear regression, non-linear regression, Econometrics, normality tests, tests for robustness, and tests for variance and covariance.
+
+Parametric tests versus non-parametric tests simply refer to the presence/ absence of assumptions or parameters that add to the statistical significance of a test. Examples include the T-Test, Wilcoxon Rank Sum Test, Chi-Square Test for Goodness of Fit, and the Shapiro-Wilk Test. Regressions are a way of determining the relationship between dependent and independent variables. Tests of robustness are a way of determining how sensitive your model or regression is to changing conditions.
 
 ### Python
 
@@ -58,7 +62,7 @@ R is a programming language and free software environment for statistical comput
 
 [^4]: <https://www.r-project.org/>
 
-Skills in R include cleaning data, performing basic analysis with small and large datasets, creating basic charts (par, pie, donut), and knitting together projects via Distill into a functioning public website.
+Skills in R include cleaning data, performing basic analysis with small and large datasets, creating basic charts (par, pie, donut), linking R-Studio to Git and Github, and knitting together projects via Distill into a functioning public website.
 
 ### Other
 
